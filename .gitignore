@@ -1,0 +1,37 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+.DS_Store
+*.tgz
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# MongoDB local files (caso use dump/backup local)
+dump/
+*.bson
+*.archive
+
+# Build folders (caso tenha)
+dist/
+build/
